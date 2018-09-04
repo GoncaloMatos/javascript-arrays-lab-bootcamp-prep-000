@@ -1,6 +1,6 @@
 function destructivelyRemoveLastKitten () {
   var a = ["Milo", "Otis", "Garfield"];
-  a.pop()
+  a = var b = ["Milo", "Otis"];
   return a;
 }
 
