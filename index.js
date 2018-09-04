@@ -1,5 +1,6 @@
-function destructivelyPrependKitten (name) {
-  var a = [name, "Milo", "Otis", "Garfield"];
+function destructivelyRemoveLastKitten () {
+  var a = ["Milo", "Otis", "Garfield"];
+  a.pop()
   return a;
 }
 
