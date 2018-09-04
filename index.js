@@ -1,4 +1,5 @@
 function destructivelyAppendKitten (name) {
-  var a = ["Milo", "Otis", "Garfield", name];
-  return a;
+  const a = ["Milo", "Otis", "Garfield"];
+  const b =  [...a, name];
+  return b;
 }
