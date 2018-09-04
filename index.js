@@ -1,7 +1,7 @@
 function destructivelyAppendKitten (name) {
   var a = ["Milo", "Otis", "Garfield"];
-  a.push(name);
-  return a;
+  var b = name;
+  return a+b;
 }
 
 const a = ["Milo", "Otis", "Garfield"];
